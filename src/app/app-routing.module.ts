@@ -7,10 +7,6 @@ import { PageSignUpComponent } from './login/pages/page-sign-up/page-sign-up.com
 
 const routes: Routes = [
   { path: '', redirectTo: 'sign-in', pathMatch: 'full' },
-  { path: 'sign-in', component: PageSignInComponent },
-  { path: 'sign-up', component: PageSignUpComponent },
-  { path: 'forgot', component: PageForgotPasswordComponent },
-  { path: 'reset', component: PageResetPasswordComponent },
   {
     path: 'orders',
     loadChildren: () =>
